@@ -27,17 +27,21 @@ protocol Runable {
 }
 
 extension Runable {
-    func test() {
+    func run() {
         for (index, testCase) in testCases.enumerated() {
             let result = solution(arguments: testCase.input)
             if result == testCase.result {
                 print("Test Case \(index + 1) Succeed")
             } else {
-                fatalError("""
-                FAIL
+                print("""
+                ---
+                Test Case \(index + 1) FAIL
+                input: \(testCase.input)
+                
                 expected: \(testCase.result)
                 got: \(result)
                 """)
+                return
             }
         }
         
