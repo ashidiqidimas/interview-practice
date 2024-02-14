@@ -12,6 +12,7 @@
 		1306CC532B7C904600F48871 /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1306CC522B7C904600F48871 /* helper.swift */; };
 		1306CC552B7C915600F48871 /* 345-Reverse-Vowels-of-a-String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1306CC542B7C915600F48871 /* 345-Reverse-Vowels-of-a-String.swift */; };
 		1306CC572B7C9E5D00F48871 /* 125-Valid-Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1306CC562B7C9E5D00F48871 /* 125-Valid-Palindrome.swift */; };
+		1306CC592B7CAC4900F48871 /* 242-Valid-Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1306CC582B7CAC4900F48871 /* 242-Valid-Anagram.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		1306CC522B7C904600F48871 /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
 		1306CC542B7C915600F48871 /* 345-Reverse-Vowels-of-a-String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "345-Reverse-Vowels-of-a-String.swift"; sourceTree = "<group>"; };
 		1306CC562B7C9E5D00F48871 /* 125-Valid-Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "125-Valid-Palindrome.swift"; sourceTree = "<group>"; };
+		1306CC582B7CAC4900F48871 /* 242-Valid-Anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "242-Valid-Anagram.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				1306CC502B7C891200F48871 /* 217-Contains-Duplicate.swift */,
 				1306CC542B7C915600F48871 /* 345-Reverse-Vowels-of-a-String.swift */,
 				1306CC562B7C9E5D00F48871 /* 125-Valid-Palindrome.swift */,
+				1306CC582B7CAC4900F48871 /* 242-Valid-Anagram.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1306CC532B7C904600F48871 /* helper.swift in Sources */,
+				1306CC592B7CAC4900F48871 /* 242-Valid-Anagram.swift in Sources */,
 				1306CC552B7C915600F48871 /* 345-Reverse-Vowels-of-a-String.swift in Sources */,
 				1306CC472B7C881E00F48871 /* main.swift in Sources */,
 				1306CC512B7C891200F48871 /* 217-Contains-Duplicate.swift in Sources */,

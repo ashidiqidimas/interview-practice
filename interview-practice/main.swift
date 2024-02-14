@@ -7,4 +7,6 @@
 
 import Foundation
 
-ValidPalindrome().run()
+//print(ValidAnagram().isAnagram("anagram", "nagaram"))
+//print(ValidAnagram().isAnagram("rat", "car"))
+print(ValidAnagram().isAnagram("car❤️", "car❤️"))
