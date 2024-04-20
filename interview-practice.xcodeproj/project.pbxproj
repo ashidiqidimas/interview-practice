@@ -81,12 +81,12 @@
 		1306CC4F2B7C88F700F48871 /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				1306CC502B7C891200F48871 /* 217-Contains-Duplicate.swift */,
-				1306CC542B7C915600F48871 /* 345-Reverse-Vowels-of-a-String.swift */,
-				1306CC562B7C9E5D00F48871 /* 125-Valid-Palindrome.swift */,
-				13D3C5C92B86144900D6A324 /* 1512-number-of-good-pairs.swift */,
-				1306CC582B7CAC4900F48871 /* 242-Valid-Anagram.swift */,
 				1306CC5A2B7CD1C600F48871 /* 1-Two-Sum.swift */,
+				1306CC562B7C9E5D00F48871 /* 125-Valid-Palindrome.swift */,
+				1306CC502B7C891200F48871 /* 217-Contains-Duplicate.swift */,
+				1306CC582B7CAC4900F48871 /* 242-Valid-Anagram.swift */,
+				1306CC542B7C915600F48871 /* 345-Reverse-Vowels-of-a-String.swift */,
+				13D3C5C92B86144900D6A324 /* 1512-number-of-good-pairs.swift */,
 			);
 			path = Leetcode;
 			sourceTree = "<group>";
