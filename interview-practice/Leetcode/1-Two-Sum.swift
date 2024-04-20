@@ -8,17 +8,7 @@
 import Foundation
 
 class TwoSum {
-    
-    // MARK: - Using Dictionary
-    
-//    func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
-//        var dictionary = Dictionary<Int, Int>()
-//        
-//        for (index, value) in nums.enumerated() {
-//            dictionary[value] = index
-//        }
-//    }
-    
+
     // MARK: - Using Two Pointers Array
     
     struct Element {
@@ -49,6 +39,42 @@ class TwoSum {
         }
         
         fatalError("Constraint said one valid answer must exists.")
+    }
+    
+}
+
+struct TwoSumPractice {
+    
+    struct Element {
+        let index: Int
+        let value: Int
+    }
+    
+    func solve(_ nums: [Int], _ target: Int) -> [Int] {
+        let sortedElements: [Element] = nums
+            .enumerated()
+            .map { Element(index: $0.offset, value: $0.element) }
+            .sorted(by: { $0.value < $1.value })
+        
+        var leftIndex = 0
+        var rightIndex = sortedElements.count - 1
+        
+        while leftIndex < rightIndex {
+            let leftElement = sortedElements[leftIndex]
+            let rightElement = sortedElements[rightIndex]
+            
+            let sum = leftElement.value + rightElement.value
+            if sum == target {
+                return [leftElement.index, rightElement.index]
+            } else if sum < target {
+                leftIndex += 1
+            } else {
+                rightIndex -= 1
+            }
+        }
+        
+        
+        preconditionFailure("This should not be reached because there must be a solution in the array")
     }
     
 }
